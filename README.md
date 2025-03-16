@@ -182,8 +182,6 @@ Base模型，采用评测方式 ppl 方式进行评测；Chat模型，采用 gen
 streamlit run web_demo.py
 ```
 
-![web demo](doc/image/web_demo.png)
-
 ### 4.2 Transformers
 
 Transfomers 框架部署，位于 `demo/infer_chat.py` 和 `demo/infer_func.py` 文件中，和其他LLM运行无太大区别，注意输入的拼接即可。
